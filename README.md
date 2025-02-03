@@ -26,7 +26,7 @@ To use this shared library in a Jenkinsfile, call the library with `@Library('li
 ### Example Jenkinsfile for Backend Deployment
 
 ```groovy
-@Library('custom-shared-library') _
+@Library('custom-shared-lib') _
 
 def config = [
     gitRepo: 'https://github.com/your-organization/backend-helloworld.git',
